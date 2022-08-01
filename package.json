@@ -9,7 +9,7 @@
     "dev": "nodemon server/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "nnnp-arol <arol.alonso@nonerds.com>",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,5 +19,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": "https://github.com/nnnp-arol/reactSIO.git"
 }
