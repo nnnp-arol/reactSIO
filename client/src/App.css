@@ -1,3 +1,6 @@
+body {
+  background-color: #1d2323;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +29,44 @@
 
 .App-link {
   color: #61dafb;
+}
+.ownself {
+  margin-left: auto;
+  background-color: rgb(52, 105, 88);
+}
+.alien {
+  flex: 1;
+  background-color: #283434;
+}
+
+.ownself, .alien {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 70%;
+  height: auto;
+  
+}
+.body-msg {
+  width: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid; */
+  flex-wrap: wrap;
+}
+.ownself > p, .alien > p {
+  color: white;
+  text-align: start;
+  padding: 0px 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  
+
 }
 
 @keyframes App-logo-spin {
